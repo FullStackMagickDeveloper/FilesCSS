@@ -137,6 +137,17 @@ margin-bottom: 5px;
 }
 
 
+.AllTextsTitlesAside{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+font: bold 20px Cambria;
+color: black;
+margin-bottom: 5px;
+}
+
+
 .ContainerIconsText{
 display: flex;
 flex-direction: row;
@@ -154,7 +165,7 @@ flex-direction: row;
 flex-wrap: wrap;
 align-items: center;
 justify-content: center;
-column-gap: 400px;
+column-gap: 250px;
 width:auto;
 margin-top: 15px;
 margin-bottom: 5px;
@@ -324,6 +335,7 @@ font-size: 20px;
 padding-top: 7px;
 padding-bottom: 7px;
 padding-left: 7px;
+padding-right: 7px;
 margin-left: 10px;
 } 
 
@@ -369,7 +381,7 @@ align-items: flex-start;
 margin: 10px;
 padding: 10px;
 width: 95%;
-background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.geeksforgeeks.org%2Fwp-content%2Fcdn-uploads%2F20200114192751%2FHow-to-Learn-Programming.png&f=1&nofb=1&ipt=0bb7bc49d810078c0bd8296b826dd48fcacde29a7ed3479ac613cbdf30d8d889&ipo=images");
+background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.WCyGdHT36NjQUBafkNGNdwHaD4%26pid%3DApi&f=1&ipt=0736f7697fc57c40a0a72c995b096577488482e906a2d86bd40b97b76d6a92db&ipo=images");
 background-size: 55%; /*(Ajusta o tamanho da imagem ao container)*/
 background-image: repeat; /*(Não permite a Repetição)*/
 background-position: center; center; /*(Ajusta a imagem ao centro centro)*/
@@ -440,6 +452,8 @@ margin: 10px;
 
 .ContainerIconDate{
 display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
 align-items: center;
 justify-content: center;
 }
@@ -501,8 +515,8 @@ margin-bottom: 5px;
 }
 
 .IconProject{
-width: 100px;
-height: 100px;
+width: 160px;
+height: 120px;
 border-radius: 15px;
 }
 
@@ -582,4 +596,73 @@ justify-content: flex-start;
 align-items: baseline;
 width: 20%;
 margin-bottom: 200px;
+}
+
+
+
+.ContainerLogoTextVig{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: flex-start;
+}
+
+
+.ContainerIconsTextVig{
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+align-items: flex-end;
+}
+
+
+.IconVigilante3{
+width: 270px; 
+border-radius: 15px;
+}
+
+.IconVspp5{
+width: 300px; 
+border-radius: 15px;
+}
+
+.ExperVig{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: flex-start;
+align-items: flex-start;
+margin-left: 20px;
+}
+
+.IconSegurPro{
+width: 90px; 
+height: 30px;
+border-radius: 15px;
+border: solid 1px silver;
+}
+
+.ContainerIconsTextSegurPro{
+display: flex;
+flex-wrap: nowrap;
+justify-content: flex-start;
+align-items: center;
+margin-left: 5px;
+width: 400px;
+}
+
+
+.ContainerCertificate{
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 10px;
+}
+
+.IconCertificate{
+width: 290px; 
+height: 200px;
+border-radius: 15px;
+border: solid 1px silver;
 }

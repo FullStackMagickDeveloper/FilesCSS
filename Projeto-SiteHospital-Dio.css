@@ -1,0 +1,291 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.Container {
+    width: 1400px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+    border: 0.2px solid silver;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+    border: 0.2px solid silver;
+}
+.menu {
+    width: 15%;
+    background-color: white;
+    padding: 10px 20px 0px;
+    border: 0.2px solid silver;
+}
+
+a{
+text-decoration: none;
+width: 300px;
+}
+
+p{
+    font-size: 18px;
+    font-family: "monospace";
+}
+
+.localizacao{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    margin-right: 5px;
+}
+
+
+.whatsApp{
+    width: 43px;
+    height: 43px;
+    border-radius: 30px;
+    margin-right: 5px;
+}
+
+
+
+.localizacao2{
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    margin-right: 5px;
+}
+
+
+.whatsApp2{
+    width: 23px;
+    height: 23px;
+    border-radius: 30px;
+    margin-right: 5px;
+}
+
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+    min-height: 150px;
+    border: 0.2px solid silver;
+    background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.0UFQw-z8pyzrWAkMfQCfrwHaE8%26pid%3DApi&f=1&ipt=41c56eab85e93129ad410778787c7fec6c2abaa1aaa1c9133a84a1d56be5a1cc&ipo=images");
+    background-size: 50%; 
+    background-position:top; center ;
+}
+
+
+.header2 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+    min-height: 150px;
+    border: 0.2px solid silver;
+    background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.ZNJ-yqmd6tlPhoBgqkA6rQHaEK%26pid%3DApi&f=1&ipt=3974a31e525444d22c26a44ac2c6c7a15730a8ded93163e7151d504bb16f65b4&ipo=imageshttps://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.ZNJ-yqmd6tlPhoBgqkA6rQHaEK%26pid%3DApi&f=1&ipt=3974a31e525444d22c26a44ac2c6c7a15730a8ded93163e7151d504bb16f65b4&ipo=imageshttps://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.ZNJ-yqmd6tlPhoBgqkA6rQHaEK%26pid%3DApi&f=1&ipt=3974a31e525444d22c26a44ac2c6c7a15730a8ded93163e7151d504bb16f65b4&ipo=imageshttps://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.ZNJ-yqmd6tlPhoBgqkA6rQHaEK%26pid%3DApi&f=1&ipt=3974a31e525444d22c26a44ac2c6c7a15730a8ded93163e7151d504bb16f65b4&ipo=images");
+    background-size: 50%; 
+    background-position:end; center;
+    height: 200px;
+}
+
+
+
+.header3 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+    min-height: 150px;
+    border: 0.2px solid silver;
+    background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.jornalbomdia.com.br%2Ftb_noticias%2F8170%2Fhc.jpg&f=1&nofb=1&ipt=a853865144af3e47dbb0cbef036054b6b5c121ca8086c16c2e144784ee1e8073&ipo=images");
+    background-size: 100%; 
+    background-position:center; center;
+    height: 200px;
+}
+
+
+.header4 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+    min-height: 150px;
+    border: 0.2px solid silver;
+    background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fabout.kaiserpermanente.org%2Fcontent%2Fdam%2Finternet%2Fkp%2Fcomms%2Fimport%2Fuploads%2F2011%2F10%2FModestoMedicalCampus-EXT011.jpg&f=1&nofb=1&ipt=1460b1773195e3cf607124f7dc48de6227e641909629243329b3482b233d3a43&ipo=images");
+    background-size: 70%; 
+    background-position:center; center;
+    height: 200px;
+}
+
+.LogoClinica{
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+
+.LogoText{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "times new roma";
+    color: white;
+    -webkit-text-stroke: 0.2px silver;
+}
+
+
+.LogoText2{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "times new roma";
+    color: white;
+    -webkit-text-stroke: 0.2px silver;
+}
+
+
+.Coracao{
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+}
+
+
+
+.content {
+    background-color: white;
+    min-height: 303px;
+    padding: 20px;
+    border: 0.2px solid silver;
+}
+
+
+
+.Medico{
+border: 1px solid whitesmoke;
+border-radius: 15px;
+width: 125px;
+height: 120px;
+margin-right: 5px;
+}
+
+
+.footer {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 20px;
+    background-color: white;
+    max-height: 150px;
+    border: 0.2px solid silver;
+    padding: 30px;
+}
+
+
+.Especialidades{
+width: 120px;
+height: 80px;
+border-radius: 10px;
+}
+
+
+
+.Exames{
+width: 120px;
+height: 80px;
+border-radius: 10px;
+}
+
+
+.ContainerEspecial{
+display: flex;
+flex-wrap: wrap;
+}
+
+
+.funcionarios2{
+width: 500px;
+height: 400px;
+}
+
+.MedicoAtendente2{
+width: 400px;
+height: 250px;
+}
+
+.LogoText2{
+color: white;
+font-size: 25px;
+}
+
+.TextEspecialidades{
+font-size: 20px;
+}
+
+
+#Especialidades{
+ border: 2px solid whitesmoke; 
+ width: 500px; 
+}
+
+.TitleTable{
+background-color: silver;
+color: black;
+border: 2px solid white;
+}
+
+.figcaption{
+color: #4B0082;
+margin-left: 27px;
+}
+
+.frame{
+border-radius: 15px;
+border-color: gray;
+}
+
+.field{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+gap: 5px;
+border-radius: 15px;
+border: 1px solid silver;
+width: 400px;
+}
+
+.legend{
+color: gray;
+}
+
+label{
+color: gray;
+}
+
+input{
+width: 400px;
+}
+
+
+.Buttons{
+display: flex;
+flex-wrap: nowrap;
+gap: 5px;
+}
+
+button{
+  border-radius: 7px;  
+}

@@ -593,7 +593,7 @@ color: black;
 display: flex;
 flex-wrap: nowrap;
 justify-content: flex-start;
-align-items: baseline;
+align-items: center;
 width: 500px;
 gap: 10px;
 }
@@ -676,7 +676,6 @@ border: solid 1px silver;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  align-items: flex-start;
   align-content: center;
 }
 
@@ -696,8 +695,9 @@ border: solid 1px silver;
     color: #228B22;
 }
 
-.Localizacao2{
-width: 80px;
+.Localizacao{
+width: 45px;
+border-radius: 10px;
 }
 
 
@@ -707,3 +707,18 @@ width: 80px;
     color: #228B22;
 }
 
+.Disponibilidade{
+  background-color: black;
+  color: #00FF00;
+  border-radius: 15px;
+  border: 2px solid #00FF00;
+  padding: 3px;
+  font-size: 18PX;
+}
+
+
+
+li{
+  color: #00008B;
+  list-style-type: disc;
+}

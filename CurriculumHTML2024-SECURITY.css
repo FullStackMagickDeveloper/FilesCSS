@@ -666,3 +666,40 @@ height: 200px;
 border-radius: 15px;
 border: solid 1px silver;
 }
+
+
+.OutlookMaiLink{
+  text-decoration: none;
+  color: #228B22;
+}
+
+.OutlookMailContainer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.OutlookMail{
+  width: 30%;
+}
+
+.OutlookMailText{
+  color: #228B22;
+}
+
+.WhatsApp2{
+  text-decoration: none;
+  width: 30%;
+}
+
+.Localizacao{
+  text-decoration: none;
+  width: 30%;
+}
+
+.Linkedin7{
+  text-decoration: none;
+  width: 30%;
+}

@@ -667,7 +667,6 @@ border-radius: 15px;
 border: solid 1px silver;
 }
 
-
 .OutlookMaiLink{
   text-decoration: none;
   color: #228B22;
@@ -682,7 +681,7 @@ border: solid 1px silver;
 }
 
 .OutlookMail{
-  width: 30%;
+  width: 50%;
 }
 
 .OutlookMailText{
@@ -691,15 +690,19 @@ border: solid 1px silver;
 
 .WhatsApp2{
   text-decoration: none;
-  width: 30%;
+  width: 50%;
+    color: #228B22;
 }
 
-.Localizacao{
+.Localizacao2{
   text-decoration: none;
-  width: 30%;
+  width: 50%;
+    color: #228B22;
 }
 
 .Linkedin7{
   text-decoration: none;
-  width: 30%;
+  width: 50%;
+    color: #228B22;
 }
+

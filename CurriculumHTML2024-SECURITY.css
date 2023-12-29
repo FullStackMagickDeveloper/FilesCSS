@@ -693,9 +693,13 @@ border: solid 1px silver;
 
 .Localizacao2{
   text-decoration: none;
-  width: 20px;
     color: #228B22;
 }
+
+.Localizacao2{
+width: 80px;
+}
+
 
 .Linkedin7{
   text-decoration: none;

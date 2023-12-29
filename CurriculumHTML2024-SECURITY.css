@@ -594,8 +594,8 @@ display: flex;
 flex-wrap: nowrap;
 justify-content: flex-start;
 align-items: baseline;
-width: 20%;
-margin-bottom: 200px;
+width: 500px;
+gap: 10px;
 }
 
 
@@ -681,28 +681,25 @@ border: solid 1px silver;
 }
 
 .OutlookMail{
-  width: 50%;
+  width: 100px;
 }
 
-.OutlookMailText{
-  color: #228B22;
-}
 
 .WhatsApp2{
   text-decoration: none;
-  width: 50%;
+  width: 100px;
     color: #228B22;
 }
 
 .Localizacao2{
   text-decoration: none;
-  width: 50%;
+  width: 20px;
     color: #228B22;
 }
 
 .Linkedin7{
   text-decoration: none;
-  width: 50%;
+  width: 100px;
     color: #228B22;
 }
 
